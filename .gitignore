@@ -1,0 +1,31 @@
+# Dosya Takibi Yapılmayacak Dosya ve Klasörler (Veri tabanı yedekleri, editör, işletim sistemi kalıntıları, log kayıtları)
+
+### PostgreSQL & Veri Yedekleri
+data/*.tar
+data/*.backup
+data/*.sql
+data/*.csv
+data/*.xlsx
+
+
+### Editör ve IDE Ayarları (VS Code, PyCharm vb.)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.idea/
+
+### İşletim Sistemi Kalıntıları (Windows)
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Log ve Geçici Dosyalar
+
+*.log
+*.tmp
+*.bak
