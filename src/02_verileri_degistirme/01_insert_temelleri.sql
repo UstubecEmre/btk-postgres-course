@@ -525,7 +525,7 @@ SELECT
 FROM public.high_salaries AS hs
 ORDER BY hs.emp_id DESC;
 
--- Tabloaya verileri ekleyelim.
+-- Tabloya verileri ekleyelim.
 INSERT INTO high_salaries
 SELECT
 	e.emp_id,
